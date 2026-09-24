@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PDE Study OS — Professional Data Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,560&family=IBM+Plex+Mono:wght@400;600&family=IBM+Plex+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="app">
+    <aside class="sidebar">
+      <div class="brand">
+        <div class="logo">OS</div>
+        <div>
+          <h1>PDE Study OS</h1>
+          <p>Google Cloud Data Engineer</p>
+        </div>
+      </div>
+      <div class="xp-box">
+        <div class="xp-top"><span id="xp-label">0 XP</span><span id="streak-label">0 day streak</span></div>
+        <div class="xp-bar"><span id="xp-fill"></span></div>
+        <div class="rank" id="rank-label">Analyst intern</div>
+      </div>
+      <nav>
+        <div class="nav-label">Command</div>
+        <button class="nav-btn" data-go="home">Home</button>
+        <button class="nav-btn" data-go="path">Six-week path</button>
+        <button class="nav-btn" data-go="exam">Timed mock</button>
+        <div class="nav-label">Domains</div>
+        <button class="nav-btn" data-go="domain/design"><span class="dot d1"></span>Design 22%</button>
+        <button class="nav-btn" data-go="domain/ingest"><span class="dot d2"></span>Ingest 25%</button>
+        <button class="nav-btn" data-go="domain/store"><span class="dot d3"></span>Store 20%</button>
+        <button class="nav-btn" data-go="domain/analyze"><span class="dot d4"></span>Analyze 15%</button>
+        <button class="nav-btn" data-go="domain/operate"><span class="dot d5"></span>Operate 18%</button>
+        <div class="nav-label">Drills</div>
+        <button class="nav-btn" data-go="atlas">Service atlas</button>
+        <button class="nav-btn" data-go="matrix">Matrices</button>
+        <button class="nav-btn" data-go="dojo">Dojo</button>
+        <button class="nav-btn" data-go="lab">Labs</button>
+        <button class="nav-btn" data-go="cards/design">Flashcards</button>
+        <div class="nav-label">Meta</div>
+        <button class="nav-btn" data-go="badges">Badges</button>
+        <button class="nav-btn" data-go="guide">Exam guide</button>
+      </nav>
+    </aside>
+    <main class="main" id="view"></main>
+  </div>
+  <div class="toast" id="toast"></div>
+  <script src="js/content.js"></script>
+  <script src="js/quizzes.js"></script>
+  <script src="js/state.js"></script>
+  <script src="js/widgets.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
